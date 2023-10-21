@@ -1,0 +1,19 @@
+.header {
+    flex-shrink: 0;
+    width: 120px;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    white-space: nowrap;
+    color: white;
+}

@@ -1,0 +1,48 @@
+.energy {
+    grid-area: energy;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: border-color 0.2s;
+    border: 2px solid white;
+}
+
+.energy:hover {
+    border-color: #0099ff;
+}
+
+.energy__source {
+    display: flex;
+}
+
+.energy__icon {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.energy__icon img {
+    display: block;
+    width: 25px;
+}
+
+.energy-consumption {
+    flex: 1;
+}
+
+.energy__description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+}
+
+.energy__value {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}

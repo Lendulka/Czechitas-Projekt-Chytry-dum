@@ -1,0 +1,15 @@
+.dashboard {
+    flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "lights climate"
+        "lights climate"
+        "lights blinds"
+        "lights energy";
+    gap: 10px;
+    padding: 30px;
+    background-image: linear-gradient(to top, #c4c5c7ee 0%, #dcdddfee 50%, #ebebebee 100%);
+    border-radius: 4px;
+}

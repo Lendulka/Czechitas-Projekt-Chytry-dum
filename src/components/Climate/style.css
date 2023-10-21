@@ -1,0 +1,54 @@
+.climate {
+    grid-area: climate;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: border-color 0.2s;
+    border: 2px solid white;
+}
+
+.climate:hover {
+    border-color: #0099ff;
+}
+
+.climate__icon {
+    /* margin-right: 20px */
+}
+
+.climate__icon img {
+    width: 40px;
+}
+
+.climate__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.climate__temperature {
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 600;
+    text-align: center;
+}
+
+.climate__controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.climate__controls button:first-child {
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.climate__controls button:last-child {
+    border-radius: 0 0 5px 5px;
+}

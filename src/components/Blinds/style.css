@@ -1,0 +1,44 @@
+.blinds {
+    grid-area: blinds;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: border-color 0.2s;
+    border: 2px solid white;
+}
+
+.blinds:hover {
+    border-color: #0099ff;
+}
+
+.blinds__icon {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.blinds__icon img {
+    height: 40px;
+}
+
+.blinds__name {
+    flex: 1;
+    padding: 10px 20px 10px 0;
+    font-weight: bold;
+}
+
+.blinds__controls {
+    display: flex;
+}
+
+.blinds__controls button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.blinds__controls button:last-child {
+    border-radius: 0 5px 5px 0;
+}
